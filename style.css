@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Zen+Kaku+Gothic+New:wght@500&display=swap');
+body {
+    background: white;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 10px;
+}
+
+body.escuro {
+    background: black;
+    color: white;
+}
+
+body.escuro h1{
+    color: rgb(0, 162, 255);
+}
+
+.titulo {
+    display: flex;
+}
+
+.carro {
+    
+}
+
+h1{
+    color: rgb(255, 6, 6); 
+    font-size: 70px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+    max-width: 800px;
+    margin-left: 30px;
+}
+
+img{
+    margin-left: 200px;
+}
+
+.tema{
+    position: fixed;
+    top: 50%;
+    right: 10%;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 3px solid red;
+}
+.escurinho{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 162, 255);
+    background-color: #292929;
+    color: white;
+}
+
+h{
+    margin-left: 200px;
+}
